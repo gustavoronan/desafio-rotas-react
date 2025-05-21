@@ -17,7 +17,7 @@ function App() {
             <Route index element={<Navigate to={'/home'}/>} />
             <Route path="home" element={<HomeBody />}/>
             <Route path="products" element={<Products />}>
-              <Route index element={<Computers/>}/>
+              <Route index element={<Navigate to={'computer'}/>}/>
               <Route path="computer" element={<Computers/>}/>
               <Route path="eletronics" element={<Eletronics/>}/>
               <Route path="books" element={<Books/>}/>
