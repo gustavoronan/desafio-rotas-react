@@ -9,7 +9,7 @@ export default function Header() {
       <div className="container dpflex">
         <NavLink
           to={"/home"}
-          className={({ isActive }) => (isActive ? "menu-active ml-20" : "ml-20")}
+          className={({ isActive }) => (isActive ? "menu-active" : "")}
         >
           Inicio
         </NavLink>
