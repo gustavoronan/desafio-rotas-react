@@ -22,3 +22,7 @@ header {
 .homeimg{
     margin-left: auto;
 }
+
+.menu-active{
+    font-weight: 700;
+}
