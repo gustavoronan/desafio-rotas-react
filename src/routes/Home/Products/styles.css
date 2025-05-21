@@ -1,0 +1,14 @@
+.header-products{
+    display: flex;
+    background-color: var(--color-bg-tertiary);
+    height: 60px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container-products{
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+}
